@@ -5,5 +5,8 @@ def join_nested_strings(src)
   row = 0
   while row < src.size do
     col = 0
+    while col < src[row].size do
+      if src[row][col].is_str
+    end
   end
 end
