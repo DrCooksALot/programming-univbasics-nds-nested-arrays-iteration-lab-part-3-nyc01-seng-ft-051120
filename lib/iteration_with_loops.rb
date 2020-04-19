@@ -9,6 +9,7 @@ def join_nested_strings(src)
       if src[row][col].is_a? String do
         string_array << src[row][col]
       end
+      end
       col += 1
     end
     row += 1
