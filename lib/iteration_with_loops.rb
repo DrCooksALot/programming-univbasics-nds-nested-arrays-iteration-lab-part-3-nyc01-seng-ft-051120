@@ -13,4 +13,5 @@ def join_nested_strings(src)
     end
     row += 1
   end
+  p string_array
 end
