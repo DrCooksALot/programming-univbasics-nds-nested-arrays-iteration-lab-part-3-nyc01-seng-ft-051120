@@ -15,5 +15,4 @@ def join_nested_strings(src)
     row+=1
   end
   string_array.join(" ")
-  string_array
 end
