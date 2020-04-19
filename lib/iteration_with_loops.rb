@@ -8,7 +8,6 @@ def join_nested_strings(src)
   while row < src.size do
     col = 0
     while col < src[row].size do
-      binding.pry
       if src[row][col].is_a? String do
         string_array = string_array.push(src[row][col])
       end
